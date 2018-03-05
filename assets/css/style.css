@@ -94,7 +94,7 @@ a:hover {
 /* top level section for vertical middle of web page 
 also sets wallpaper behind content box*/
 #middle {
-    width: 100%;
+    width: auto;
     overflow: auto;
     clear: both;
     background-image: url("../images/45degree_fabric.png");
@@ -340,6 +340,11 @@ input[type=submit] {
         width: 659px;
     }
 
+
+    #middle{
+        width: auto;
+    }
+
      #middleleftcontent {
         width: 659px;
         margin-bottom: 42px;
@@ -381,6 +386,10 @@ input[type=submit] {
         text-align: center;
     }
     
+    #middle{
+        width: 640px;
+    }
+
     .middlecontainer {
         width: 600px;
         margin-top: 20px;
@@ -389,6 +398,10 @@ input[type=submit] {
         margin-right: auto; */
     }
 
+    #aboutmeheadshot {
+        width: 538px;
+    }
+    
      #middleleftcontent {
         width: 538px;
         margin-bottom: 42px;
